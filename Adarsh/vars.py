@@ -9,9 +9,9 @@ load_dotenv()
 
 class Var(object):
     MULTI_CLIENT = False
-    API_ID = int(getenv('API_ID', '20389440'))
-    API_HASH = str(getenv('API_HASH', 'a1a06a18eb9153e9dbd447cfd5da2457'))
-    BOT_TOKEN = str(getenv('BOT_TOKEN', ''))
+    API_ID = int(getenv('API_ID', '20612182'))
+    API_HASH = str(getenv('API_HASH', 'cd699d42ea7b4b55fb6eca38f81c73f6')
+    BOT_TOKEN = str(getenv('BOT_TOKEN', '7073704283:AAESFoB8D1Gh6nL_lwn_uoN-NEWtwinkrPQ'))
     name = str(getenv('name', 'filetolinkvjbot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
